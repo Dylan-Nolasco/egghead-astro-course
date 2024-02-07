@@ -1,0 +1,19 @@
+---
+import { Image } from "astro:assets";
+
+import Layout from "../layouts/Layout.astro";
+import dylansPhoto from "../assets/Me.jpeg";
+---
+
+<Layout seo={{ title: "About", description: "Dylan is a developer from MX" }}>
+  <div class="flex flex-col items-center gap-8 mx-auto mt-12">
+    <Image
+      src={dylansPhoto}
+      alt="A photo of Dylan Nolasco"
+      width={512}
+      quality="max"
+      class="w-64 rounded-full"
+    />
+    <p>Something bored about me.</p>
+  </div>
+</Layout>
