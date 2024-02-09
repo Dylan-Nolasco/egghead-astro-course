@@ -15,3 +15,63 @@ Hello, world! Writing content in Astro is very easy!
 ## Displaying the content
 
 But how do we display all of our articles?
+
+Astro is a seriously cool framework!
+
+## Hello, world!
+
+Hello, world! Writing content in Astro is very easy!
+
+> Just use the Content Collections API!
+
+## Displaying the content
+
+But how do we display all of our articles?
+
+Astro is a seriously cool framework!
+
+## Hello, world!
+
+Hello, world! Writing content in Astro is very easy!
+
+> Just use the Content Collections API!
+
+## Displaying the content
+
+But how do we display all of our articles?
+
+Astro is a seriously cool framework!
+
+## Hello, world!
+
+Hello, world! Writing content in Astro is very easy!
+
+> Just use the Content Collections API!
+
+## Displaying the content
+
+But how do we display all of our articles?
+
+Astro is a seriously cool framework!
+
+## Hello, world!
+
+Hello, world! Writing content in Astro is very easy!
+
+> Just use the Content Collections API!
+
+## Displaying the content
+
+But how do we display all of our articles?
+
+Astro is a seriously cool framework!
+
+## Hello, world!
+
+Hello, world! Writing content in Astro is very easy!
+
+> Just use the Content Collections API!
+
+## Displaying the content
+
+But how do we display all of our articles?

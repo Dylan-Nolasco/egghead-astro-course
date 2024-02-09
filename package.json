@@ -4,13 +4,14 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "start": "astro dev",
+    "start": "node ./dist/server/entry.mjs",
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
     "@astrojs/check": "^0.4.1",
+    "@astrojs/node": "^8.2.0",
     "@astrojs/rss": "^4.0.5",
     "@astrojs/sitemap": "^3.0.5",
     "@astrojs/tailwind": "^5.1.0",
@@ -22,6 +23,7 @@
     "typescript": "^5.3.3"
   },
   "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.1",
     "@types/markdown-it": "^13.0.7",
     "@types/sanitize-html": "^2.11.0"
   }

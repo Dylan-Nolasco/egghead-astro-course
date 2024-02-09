@@ -1,6 +1,6 @@
 ---
 import { getCollection, type CollectionEntry } from "astro:content";
-
+import PostLike from '../../components/PostLike.astro';
 import Layout from '../../layouts/Layout.astro';
 
 export async function getStaticPaths() {
@@ -22,5 +22,6 @@ const { Content } = await post.render();
 <Layout seo={{ title: post.data.title, description: post.data.description }}>
   <article class='prose max-w-[80ch] mx-auto mt-12'>
     <Content />
+    <PostLike slug={post.slug} />
   </article>
 </Layout>
